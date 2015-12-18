@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B571A4091C23FC59009739B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A4081C23FC59009739B9 /* main.m */; };
+		B571A40C1C23FC59009739B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A40B1C23FC59009739B9 /* AppDelegate.m */; };
+		B571A40F1C23FC59009739B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A40E1C23FC59009739B9 /* ViewController.m */; };
+		B571A4121C23FC59009739B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B571A4101C23FC59009739B9 /* Main.storyboard */; };
+		B571A4141C23FC59009739B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B571A4131C23FC59009739B9 /* Assets.xcassets */; };
+		B571A4171C23FC59009739B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B571A4151C23FC59009739B9 /* LaunchScreen.storyboard */; };
+		B571A4221C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A4211C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m */; };
+		B571A42D1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A42C1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B571A41E1C23FC59009739B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B571A3FC1C23FC59009739B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B571A4031C23FC59009739B9;
+			remoteInfo = Ton_CameraAndOpenGl;
+		};
+		B571A4291C23FC59009739B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B571A3FC1C23FC59009739B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B571A4031C23FC59009739B9;
+			remoteInfo = Ton_CameraAndOpenGl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B571A4041C23FC59009739B9 /* Ton_CameraAndOpenGl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ton_CameraAndOpenGl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B571A4081C23FC59009739B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B571A40A1C23FC59009739B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B571A40B1C23FC59009739B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B571A40D1C23FC59009739B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B571A40E1C23FC59009739B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B571A4111C23FC59009739B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B571A4131C23FC59009739B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B571A4161C23FC59009739B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B571A4181C23FC59009739B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B571A41D1C23FC59009739B9 /* Ton_CameraAndOpenGlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_CameraAndOpenGlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B571A4211C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_CameraAndOpenGlTests.m; sourceTree = "<group>"; };
+		B571A4231C23FC59009739B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B571A4281C23FC59009739B9 /* Ton_CameraAndOpenGlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_CameraAndOpenGlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B571A42C1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_CameraAndOpenGlUITests.m; sourceTree = "<group>"; };
+		B571A42E1C23FC5A009739B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B571A4011C23FC59009739B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571A41A1C23FC59009739B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571A4251C23FC59009739B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B571A3FB1C23FC59009739B9 = {
+			isa = PBXGroup;
+			children = (
+				B571A4061C23FC59009739B9 /* Ton_CameraAndOpenGl */,
+				B571A4201C23FC59009739B9 /* Ton_CameraAndOpenGlTests */,
+				B571A42B1C23FC59009739B9 /* Ton_CameraAndOpenGlUITests */,
+				B571A4051C23FC59009739B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B571A4051C23FC59009739B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B571A4041C23FC59009739B9 /* Ton_CameraAndOpenGl.app */,
+				B571A41D1C23FC59009739B9 /* Ton_CameraAndOpenGlTests.xctest */,
+				B571A4281C23FC59009739B9 /* Ton_CameraAndOpenGlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B571A4061C23FC59009739B9 /* Ton_CameraAndOpenGl */ = {
+			isa = PBXGroup;
+			children = (
+				B571A40A1C23FC59009739B9 /* AppDelegate.h */,
+				B571A40B1C23FC59009739B9 /* AppDelegate.m */,
+				B571A40D1C23FC59009739B9 /* ViewController.h */,
+				B571A40E1C23FC59009739B9 /* ViewController.m */,
+				B571A4101C23FC59009739B9 /* Main.storyboard */,
+				B571A4131C23FC59009739B9 /* Assets.xcassets */,
+				B571A4151C23FC59009739B9 /* LaunchScreen.storyboard */,
+				B571A4181C23FC59009739B9 /* Info.plist */,
+				B571A4071C23FC59009739B9 /* Supporting Files */,
+			);
+			path = Ton_CameraAndOpenGl;
+			sourceTree = "<group>";
+		};
+		B571A4071C23FC59009739B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B571A4081C23FC59009739B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B571A4201C23FC59009739B9 /* Ton_CameraAndOpenGlTests */ = {
+			isa = PBXGroup;
+			children = (
+				B571A4211C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m */,
+				B571A4231C23FC59009739B9 /* Info.plist */,
+			);
+			path = Ton_CameraAndOpenGlTests;
+			sourceTree = "<group>";
+		};
+		B571A42B1C23FC59009739B9 /* Ton_CameraAndOpenGlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B571A42C1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m */,
+				B571A42E1C23FC5A009739B9 /* Info.plist */,
+			);
+			path = Ton_CameraAndOpenGlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B571A4031C23FC59009739B9 /* Ton_CameraAndOpenGl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B571A4311C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGl" */;
+			buildPhases = (
+				B571A4001C23FC59009739B9 /* Sources */,
+				B571A4011C23FC59009739B9 /* Frameworks */,
+				B571A4021C23FC59009739B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ton_CameraAndOpenGl;
+			productName = Ton_CameraAndOpenGl;
+			productReference = B571A4041C23FC59009739B9 /* Ton_CameraAndOpenGl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B571A41C1C23FC59009739B9 /* Ton_CameraAndOpenGlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B571A4341C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGlTests" */;
+			buildPhases = (
+				B571A4191C23FC59009739B9 /* Sources */,
+				B571A41A1C23FC59009739B9 /* Frameworks */,
+				B571A41B1C23FC59009739B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B571A41F1C23FC59009739B9 /* PBXTargetDependency */,
+			);
+			name = Ton_CameraAndOpenGlTests;
+			productName = Ton_CameraAndOpenGlTests;
+			productReference = B571A41D1C23FC59009739B9 /* Ton_CameraAndOpenGlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B571A4271C23FC59009739B9 /* Ton_CameraAndOpenGlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B571A4371C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGlUITests" */;
+			buildPhases = (
+				B571A4241C23FC59009739B9 /* Sources */,
+				B571A4251C23FC59009739B9 /* Frameworks */,
+				B571A4261C23FC59009739B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B571A42A1C23FC59009739B9 /* PBXTargetDependency */,
+			);
+			name = Ton_CameraAndOpenGlUITests;
+			productName = Ton_CameraAndOpenGlUITests;
+			productReference = B571A4281C23FC59009739B9 /* Ton_CameraAndOpenGlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B571A3FC1C23FC59009739B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					B571A4031C23FC59009739B9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B571A41C1C23FC59009739B9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B571A4031C23FC59009739B9;
+					};
+					B571A4271C23FC59009739B9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B571A4031C23FC59009739B9;
+					};
+				};
+			};
+			buildConfigurationList = B571A3FF1C23FC59009739B9 /* Build configuration list for PBXProject "Ton_CameraAndOpenGl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B571A3FB1C23FC59009739B9;
+			productRefGroup = B571A4051C23FC59009739B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B571A4031C23FC59009739B9 /* Ton_CameraAndOpenGl */,
+				B571A41C1C23FC59009739B9 /* Ton_CameraAndOpenGlTests */,
+				B571A4271C23FC59009739B9 /* Ton_CameraAndOpenGlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B571A4021C23FC59009739B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571A4171C23FC59009739B9 /* LaunchScreen.storyboard in Resources */,
+				B571A4141C23FC59009739B9 /* Assets.xcassets in Resources */,
+				B571A4121C23FC59009739B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571A41B1C23FC59009739B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571A4261C23FC59009739B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B571A4001C23FC59009739B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571A40F1C23FC59009739B9 /* ViewController.m in Sources */,
+				B571A40C1C23FC59009739B9 /* AppDelegate.m in Sources */,
+				B571A4091C23FC59009739B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571A4191C23FC59009739B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571A4221C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B571A4241C23FC59009739B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571A42D1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B571A41F1C23FC59009739B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B571A4031C23FC59009739B9 /* Ton_CameraAndOpenGl */;
+			targetProxy = B571A41E1C23FC59009739B9 /* PBXContainerItemProxy */;
+		};
+		B571A42A1C23FC59009739B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B571A4031C23FC59009739B9 /* Ton_CameraAndOpenGl */;
+			targetProxy = B571A4291C23FC59009739B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B571A4101C23FC59009739B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B571A4111C23FC59009739B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B571A4151C23FC59009739B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B571A4161C23FC59009739B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B571A42F1C23FC5A009739B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B571A4301C23FC5A009739B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B571A4321C23FC5A009739B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ton_CameraAndOpenGl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B571A4331C23FC5A009739B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ton_CameraAndOpenGl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B571A4351C23FC5A009739B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ton_CameraAndOpenGlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ton_CameraAndOpenGl.app/Ton_CameraAndOpenGl";
+			};
+			name = Debug;
+		};
+		B571A4361C23FC5A009739B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ton_CameraAndOpenGlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ton_CameraAndOpenGl.app/Ton_CameraAndOpenGl";
+			};
+			name = Release;
+		};
+		B571A4381C23FC5A009739B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ton_CameraAndOpenGlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ton_CameraAndOpenGl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B571A4391C23FC5A009739B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ton_CameraAndOpenGlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ton_CameraAndOpenGl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B571A3FF1C23FC59009739B9 /* Build configuration list for PBXProject "Ton_CameraAndOpenGl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571A42F1C23FC5A009739B9 /* Debug */,
+				B571A4301C23FC5A009739B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B571A4311C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571A4321C23FC5A009739B9 /* Debug */,
+				B571A4331C23FC5A009739B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B571A4341C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571A4351C23FC5A009739B9 /* Debug */,
+				B571A4361C23FC5A009739B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B571A4371C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B571A4381C23FC5A009739B9 /* Debug */,
+				B571A4391C23FC5A009739B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B571A3FC1C23FC59009739B9 /* Project object */;
+}
