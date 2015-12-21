@@ -7,16 +7,50 @@
 //
 
 #import "ViewController.h"
+#import "JMBackgroundCameraView.h"
+#import "ModelViewController.h"
+
 
 @interface ViewController ()
+{
+    JMBackgroundCameraView *v;
+    ModelViewController *modelViewController;
+}
+
+
 
 @end
 
 @implementation ViewController
 
+//电池条
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    v = [[JMBackgroundCameraView alloc] initWithFrame:self.view.frame positionDevice:DevicePositonBack];
+    [self.view addSubview:v];
+    
+    [self addModelView];
+}
+
+-(void)addModelView{
+    modelViewController = [[ModelViewController alloc] init];
+    
+    modelViewController.view.layer.frame = self.view.frame;
+    
+    modelViewController.view.layer.backgroundColor = [UIColor clearColor].CGColor;
+    
+    
+//    [self addChildViewController:modelViewController];
+   
+    [v addSubview:modelViewController.view];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -15,6 +15,11 @@
 		B571A4171C23FC59009739B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B571A4151C23FC59009739B9 /* LaunchScreen.storyboard */; };
 		B571A4221C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A4211C23FC59009739B9 /* Ton_CameraAndOpenGlTests.m */; };
 		B571A42D1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A42C1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m */; };
+		B571A4411C23FC86009739B9 /* JMBackgroundCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A43C1C23FC86009739B9 /* JMBackgroundCameraView.m */; };
+		B571A4421C23FC86009739B9 /* UIERealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A43E1C23FC86009739B9 /* UIERealTimeBlurView.m */; };
+		B571A4431C23FC86009739B9 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A4401C23FC86009739B9 /* UIImage+BoxBlur.m */; };
+		B571A4481C23FE93009739B9 /* Ton_Transformations.m in Sources */ = {isa = PBXBuildFile; fileRef = B571A4471C23FE93009739B9 /* Ton_Transformations.m */; };
+		B588C3921C278EC100F648CC /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B588C3911C278EC100F648CC /* ModelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		B571A4281C23FC59009739B9 /* Ton_CameraAndOpenGlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_CameraAndOpenGlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B571A42C1C23FC5A009739B9 /* Ton_CameraAndOpenGlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_CameraAndOpenGlUITests.m; sourceTree = "<group>"; };
 		B571A42E1C23FC5A009739B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B571A43B1C23FC86009739B9 /* JMBackgroundCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBackgroundCameraView.h; sourceTree = "<group>"; };
+		B571A43C1C23FC86009739B9 /* JMBackgroundCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBackgroundCameraView.m; sourceTree = "<group>"; };
+		B571A43D1C23FC86009739B9 /* UIERealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIERealTimeBlurView.h; sourceTree = "<group>"; };
+		B571A43E1C23FC86009739B9 /* UIERealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIERealTimeBlurView.m; sourceTree = "<group>"; };
+		B571A43F1C23FC86009739B9 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		B571A4401C23FC86009739B9 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		B571A4461C23FE93009739B9 /* Ton_Transformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ton_Transformations.h; sourceTree = "<group>"; };
+		B571A4471C23FE93009739B9 /* Ton_Transformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ton_Transformations.m; sourceTree = "<group>"; };
+		B588C3901C278EC100F648CC /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		B588C3911C278EC100F648CC /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,9 @@
 		B571A3FB1C23FC59009739B9 = {
 			isa = PBXGroup;
 			children = (
+				B588C38F1C278E5600F648CC /* ModelViewControlller */,
+				B571A4451C23FE70009739B9 /* Resources */,
+				B571A43A1C23FC64009739B9 /* Camera */,
 				B571A4061C23FC59009739B9 /* Ton_CameraAndOpenGl */,
 				B571A4201C23FC59009739B9 /* Ton_CameraAndOpenGlTests */,
 				B571A42B1C23FC59009739B9 /* Ton_CameraAndOpenGlUITests */,
@@ -138,6 +156,38 @@
 				B571A42E1C23FC5A009739B9 /* Info.plist */,
 			);
 			path = Ton_CameraAndOpenGlUITests;
+			sourceTree = "<group>";
+		};
+		B571A43A1C23FC64009739B9 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B571A43B1C23FC86009739B9 /* JMBackgroundCameraView.h */,
+				B571A43C1C23FC86009739B9 /* JMBackgroundCameraView.m */,
+				B571A43D1C23FC86009739B9 /* UIERealTimeBlurView.h */,
+				B571A43E1C23FC86009739B9 /* UIERealTimeBlurView.m */,
+				B571A43F1C23FC86009739B9 /* UIImage+BoxBlur.h */,
+				B571A4401C23FC86009739B9 /* UIImage+BoxBlur.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		B571A4451C23FE70009739B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B571A4461C23FE93009739B9 /* Ton_Transformations.h */,
+				B571A4471C23FE93009739B9 /* Ton_Transformations.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B588C38F1C278E5600F648CC /* ModelViewControlller */ = {
+			isa = PBXGroup;
+			children = (
+				B588C3901C278EC100F648CC /* ModelViewController.h */,
+				B588C3911C278EC100F648CC /* ModelViewController.m */,
+			);
+			name = ModelViewControlller;
+			path = ModelViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +257,7 @@
 				TargetAttributes = {
 					B571A4031C23FC59009739B9 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P7NH7P8XQ2;
 					};
 					B571A41C1C23FC59009739B9 = {
 						CreatedOnToolsVersion = 7.2;
@@ -270,8 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B588C3921C278EC100F648CC /* ModelViewController.m in Sources */,
+				B571A4431C23FC86009739B9 /* UIImage+BoxBlur.m in Sources */,
+				B571A4481C23FE93009739B9 /* Ton_Transformations.m in Sources */,
 				B571A40F1C23FC59009739B9 /* ViewController.m in Sources */,
+				B571A4421C23FC86009739B9 /* UIERealTimeBlurView.m in Sources */,
 				B571A40C1C23FC59009739B9 /* AppDelegate.m in Sources */,
+				B571A4411C23FC86009739B9 /* JMBackgroundCameraView.m in Sources */,
 				B571A4091C23FC59009739B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,10 +467,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ton_CameraAndOpenGl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +481,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ton_CameraAndOpenGl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-CameraAndOpenGl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +558,7 @@
 				B571A4331C23FC5A009739B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B571A4341C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGlTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +567,7 @@
 				B571A4361C23FC5A009739B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B571A4371C23FC5A009739B9 /* Build configuration list for PBXNativeTarget "Ton_CameraAndOpenGlUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +576,7 @@
 				B571A4391C23FC5A009739B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
